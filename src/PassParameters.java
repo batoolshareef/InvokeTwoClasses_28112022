@@ -3,8 +3,7 @@ public class PassParameters {
 
 static String expectedTitle="Facebook - log in or sign up";
 static String wordSearch="bmw";
-static String carType="Kia forte 2013";
-
+static String carType="Audi";
 
 static public void changeWordToUpperCase() {
 

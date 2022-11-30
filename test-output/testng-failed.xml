@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SearchWordGoogle">
+      <class name="OpenSooqSite">
         <methods>
+          <include name="login"/>
+          <include name="searchCarTypeOpenSooqSite"/>
           <include name="quitApplication"/>
-          <include name="searchWordGoogleSite"/>
-          <include name="loginSite"/>
         </methods>
-      </class> <!-- SearchWordGoogle -->
+      </class> <!-- OpenSooqSite -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
